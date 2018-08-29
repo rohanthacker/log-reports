@@ -1,0 +1,11 @@
+# Databases
+*.db
+*.sql
+*.sqlite
+
+
+# Python Virtualenv
+venv
+
+# Outputs
+report*.txt
