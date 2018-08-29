@@ -1,0 +1,5 @@
+MAIN_START = 'log-reporter v0.0.1 Started'
+DB_CONN_SUCCESS = 'Connected to database'
+DB_CONN_FAILED = 'Failed to connect to database'
+LOG_QUERY_PREFIX = 'Fetching'
+LOG_END = 'Report Saved to File'

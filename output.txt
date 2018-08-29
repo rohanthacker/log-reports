@@ -1,0 +1,7 @@
+**** LOG REPORT ****
+Report Date : 2018-08-29
+
+Days with Errors > 1%
+*********************
+2016-07-17 
+
