@@ -1,3 +1,7 @@
-1. What are the most popular three articles of all time?
-2. Who are the most popular article authors of all time?
-3. On which days did more than 1% of requests lead to errors?
+# Log Reports
+A Simple log reporter that saves a report to a text file.
+
+## Features
+Settings.Py for easy config.
+Output.py to control look of output file
+Strings.py to provide for i18n.
