@@ -7,6 +7,10 @@
 import queries as sql
 
 
+
+# The database connection string. Usually consists of dbname and credentials 
+DB_CONN = "dbname=news"
+
 # The filename to be used including .format
 FILENAME = 'output.txt'
 

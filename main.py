@@ -4,7 +4,7 @@ import psycopg2
 import output
 import messages as msg
 from time import time
-from settings import FILENAME, REPORT
+from settings import FILENAME, REPORT, DB_CONN
 
 db = None
 cursor = None
@@ -13,7 +13,7 @@ cursor = None
 def make_db_connection():
     global cursor, db
     try:
-        db = psycopg2.connect("dbname=news")
+        db = psycopg2.connect(DB_CONN)
         cursor = db.cursor()
         print(msg.DB_CONN_SUCCESS, '\n')
     except:
