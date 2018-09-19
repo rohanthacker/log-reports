@@ -1,4 +1,4 @@
-
+#!/usr/bin/env python3
 import sys
 import psycopg2
 import output
@@ -40,8 +40,9 @@ def make_report():
         sql_timer_start = time()
         cursor.execute(q['sql'])
         sql_timer_end = time()
-        print('   ', '* finished in {}s'.format(round(sql_timer_end -
-                                                      sql_timer_start, 2)), '\n')
+        print('   ', '* finished in {}s'.format(
+            round(sql_timer_end - sql_timer_start, 2)), '\n'
+            )
         data += output.make_title(q['title'])
         for row in cursor:
             data += q['format'](row)

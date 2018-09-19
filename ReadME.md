@@ -20,11 +20,15 @@ A simple SQL Database logging too, with minimal-code based config and text outpu
 
 ``` python -m venv <path to your venv> ```
 
-3. Install required the python modules
+3. Switch into your venv with
+
+``` source venv/bin/activate ```
+
+4. Install required the python modules
 
 ``` pip install -r requirements.txt ```
 
-4. You should now have a working copy of log-reports, to test run
+5. You should now have a working copy of log-reports, to test run
 ``` ./main.py ```
 
 If everything worked you should see output.txt ( default name ) in your current directory.
